@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p id="results"></p>
+		<script type="text/javascript">
+		
+var n= Number(prompt("What number would you like to factorial?"));		
+		function factorial(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+	document.write("Your result is " + factorial(n));		
+		
+		</script>
+</body>
+</html>

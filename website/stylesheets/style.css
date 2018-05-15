@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/** 
+My 3 Colors are :
+Grey: 575656
+Black: 000000
+Blue: E80300
+
+
+
+
+**/
+
+body {
+			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+			color:#1040EF;
+			background-color:#828282;
+			background-image: url(http://store44.com/wp-content/uploads/damian-lillard-dunking-erik-isakson.jpg);
+			background-size: cover;
+		}
+		#footer p {
+				text-align:right;
+		}
+		
+       /***********************************************	
+	   	
+		TRANSPARENT BACKGROUND
+		
+		***********************************************/
+		
+		
+		/***********************************************
+		
+		BASIC STRUCTURE
+		
+		***********************************************/
+		
+		#wrapper {
+				width: 960px;
+				padding: 5px;
+				margin: 20px auto;
+		}
+		
+		#header {
+				height: 100px;
+		}
+		
+		#sidebar {
+				float: left;
+				width: 300px;
+		}
+		
+		#content {
+				float: right;
+				width: 600px;
+		}
+		
+		#footer {
+				clear: both;
+		}
+		/***********************************************
+		
+		COLORS AND FONTS
+		
+		***********************************************/
+		
+		body {
+				font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+				color: #FA0004;
+				background-color: black;
+		}
+		
+		#header, #sidebar, #content, #footer {
+			background-color: rgba(90,89,89,.70);
+			margin-bottom: 4px;
+			border: ridge;
+			border-radius: 8px;
+			border-color: white;
+			padding-left: 4px;
+			padding-right: 4px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		/***********************************************
+		
+		RESPONSIVE WIDTH
+		
+		***********************************************/
+		
+		@media screen and (max-width: 980px) {
+			#wrapper {
+				width: 94%;
+			}
+			#content {
+				width: 65%
+			}
+			#sidebar {
+				width:30%
+			}
+		}
+		
+		@media creen and (max-width: 700px) {
+			#content, #sidebar {
+				width:auto;
+				float: none;
+			}
+			#header {
+				height: auto;
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

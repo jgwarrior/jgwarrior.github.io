@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var destination = prompt("What is your destination?");
+var distance = Number(prompt("How far will you be traveling?"));
+var speed = Number(prompt("How fast will you be traveling?"))
+var time = distance / speed
+var hours = Math.floor(time)
+var minutes = (time - hours)*60;
+var bean = Math.floor(minutes);
+document.write(hours + " hours and " + bean + " minutes");
+</script>
+<img src= "https://openclipart.org/image/2400px/svg_to_png/234349/flat_location_logo.png" width= "300">
+</body>
+</html>

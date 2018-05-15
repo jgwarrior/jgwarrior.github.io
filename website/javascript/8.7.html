@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<th> Leap Years </th>
+
+<script type="text/javascript">
+
+function isLeapYear(year) {
+		if((year % 4) ! = 0 {
+			return false;
+		} else if (( year % 100) ! = 0) {
+			return true;
+		} else if ((year % 400) !=0) {
+			return false;
+		}
+		return true;
+}
+
+var year = prompt("Please enter a year: ");
+if (isLeapYear(year)) {
+	alert ( year + "isLeapYear");
+} 
+else {
+	alert( year + "is not a leap year");
+}
+</script>
+
+</body>
+</html>
